@@ -185,6 +185,7 @@
 .boton {
   padding: 10px;
   border: 0;
+  border-radius: 6px;
   background: #494949;
   color: white;
   cursor: pointer;
@@ -204,4 +205,16 @@
 
 .encabezado h1 {
   margin: 1;
+}
+.tarjeta-producto {
+  padding: 16px;
+  max-width: 150px;
+  border: 1px solid #5a01ff;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.tarjeta-producto img {
+  height: 150px;
+  object-fit: cover;
 }
