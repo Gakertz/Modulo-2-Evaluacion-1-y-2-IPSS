@@ -182,3 +182,26 @@
     border-right-color: var(--border);
   }
 }
+.boton {
+  padding: 10px;
+  border: 0;
+  background: #494949;
+  color: white;
+  cursor: pointer;
+}
+.pie-pagina {
+  padding: 15px;
+  background: #222;
+  color: white;
+  text-align: center;
+}
+.encabezado {
+  padding: 24px;
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+.encabezado h1 {
+  margin: 1;
+}
