@@ -208,13 +208,23 @@
 }
 .tarjeta-producto {
   padding: 16px;
-  max-width: 150px;
+  max-width: 200px;
   border: 1px solid #5a01ff;
   border-radius: 8px;
   background: #ffffff;
 }
 
 .tarjeta-producto img {
+  max-width: 170px;
   height: 150px;
   object-fit: cover;
+}
+
+.lista-productos {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  width: 80%;
+  margin: 0 auto;
 }
