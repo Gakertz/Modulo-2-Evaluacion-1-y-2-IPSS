@@ -34,8 +34,8 @@ npm run dev
 
 ### Vista general
 
-![Vista general](Capturas/vista-general.png)
+![Vista general](src/Capturas/vista-general.png)
 
 ### Buscador funcionando (busca en título y categoria)
 
-![Buscador](Capturas/buscador.png)
+![Buscador](src/Capturas/buscador.png)
