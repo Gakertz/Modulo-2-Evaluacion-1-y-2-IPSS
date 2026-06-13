@@ -228,3 +228,18 @@
   width: 80%;
   margin: 0 auto;
 }
+.buscador {
+  margin-bottom: 20px;
+}
+
+.buscador label {
+  display: inline;
+  font-weight: bold;
+}
+
+.buscador input {
+  width: 80%;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
