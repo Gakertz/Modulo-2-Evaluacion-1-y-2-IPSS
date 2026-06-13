@@ -1,16 +1,41 @@
-# React + Vite
+# ecommerce Simple
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto básico de ecommerce hecho con React y Vite para la Evaluación 3 del diplomado IPSS.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La aplicación muestra una lista de productos creados desde un archivo json y permite filtrarlos con un buscador. No utiliza backend, solo datos locales.
 
-## React Compiler
+## Componentes creados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Header
+- SearchBar
+- ProductCard
+- ProductList
+- Button
+- Footer
 
-## Expanding the ESLint configuration
+## Cómo ejecutar el proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Tecnologías usadas
+
+- React
+- Vite
+- JavaScript
+- CSS
+- HTML
+
+## Capturas de pantalla
+
+### Vista general
+
+![Vista general](Capturas/vista-general.png)
+
+### Buscador funcionando (busca en título y categoria)
+
+![Buscador](Capturas/buscador.png)
