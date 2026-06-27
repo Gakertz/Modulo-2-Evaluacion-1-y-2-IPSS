@@ -1,10 +1,10 @@
 import Button from './Button.jsx';
 
-function ProductCard({ name, price, category, image }) {
+function ProductCard({ title, price, category, thumbnail }) {
   return (
     <article className="tarjeta-producto">
-      <img src={image} alt={name} />
-      <h3>{name}</h3>
+      <img src={thumbnail} alt={title} />
+      <h3>{title}</h3>
       <p>{category}</p>
       <p>${price}</p>
       <Button>Ver producto</Button>
