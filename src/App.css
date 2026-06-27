@@ -248,3 +248,46 @@
   display: block;
   margin-right: auto;
 }
+
+/* Componente ErrorMessage.jsx */
+.mensaje-error {
+  padding: 16px;
+  border-radius: 8px;
+  color: #b00020;
+  text-align: center;
+}
+
+.mensaje-error strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.mensaje-error p {
+  margin: 0;
+}
+
+/* Componente Loader.jsx */
+.loader {
+  margin: auto;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border-top: 4px solid #5a01ff;
+  animation: girar 0.9s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
