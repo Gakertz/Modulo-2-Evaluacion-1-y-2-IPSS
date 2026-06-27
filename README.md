@@ -7,7 +7,8 @@ Proyecto básico de ecommerce hecho con React y Vite para la Evaluación 3 del d
 La aplicación muestra una lista de productos creados desde un archivo json y permite filtrarlos con un buscador. No utiliza backend, solo datos locales.
 
 ## Componentes creados
-
+- ErrorMessage
+- Loader
 - Header
 - SearchBar
 - ProductCard
@@ -34,8 +35,8 @@ npm run dev
 
 ### Vista general
 
-![Vista general](src/Capturas/vista-general.png)
+![Vista general](src/Capturas/Front-API.png)
 
 ### Buscador funcionando (busca en título y categoria)
 
-![Buscador](src/Capturas/buscador.png)
+![Buscador](src/Capturas/Buscador-API.png)
