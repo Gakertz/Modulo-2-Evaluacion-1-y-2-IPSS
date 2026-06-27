@@ -6,10 +6,10 @@ function ProductList({ productos }) {
       {productos.map((producto) => (
         <ProductCard
           key={producto.id}
-          name={producto.name}
+          title={producto.title}
           price={producto.price}
           category={producto.category}
-          image={producto.image}
+          thumbnail={producto.thumbnail}
         />
       ))}
     </section>
